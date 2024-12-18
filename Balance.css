@@ -1,0 +1,48 @@
+.withdraw_bg ,.balance_bg{
+    height: 100%;
+    background-image: url('img/bank.7.jpeg');
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: contain;
+    margin-top: 1%;
+    margin-bottom: -5%;
+}
+.withdraw ,.balance{
+    width: 40%;
+    height: 300px;
+    margin-top: 7%;
+    margin-left: 36%;
+}
+.withdraw input ,.balance input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000  ;
+    outline: none;
+}
+.withdraw input:focus ,input:hover ,.balance input:hover , input:focus{
+    border: 2px solid blue;
+}
+.withdraw_button ,.balance_button{
+    margin-top: 3%;
+    margin-left: 17%;
+}
+.withdraw_button button ,.balance_button button{
+    padding: 10px 30px;
+    margin-right: 7%;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.withdraw_button button:hover ,.balance_button button:hover{
+    background-color: rgb(58, 79, 237);
+}
+footer{
+    margin-top: -40%;
+}
